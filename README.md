@@ -1,22 +1,22 @@
 # Node.js-File-Commands in node v16.13.1.
 #
 ## Copy file (file1 to file 2)
-### Example 1: copy-file1-to-file2-v1.js
-### Example 2: copy-file1-to-file2-v2.js
+### Example 1: node copy-file1-to-file2-v1.js
+### Example 2: node copy-file1-to-file2-v2.js
+### Example 3: node copy-file1-to-file2-v3.js
+### Example 4: node copy-file1-to-file2-v4.js
 ##
-## Delete file (file 2)
-### Example 1: node delete-file-v1.js
-### Example 2: node delete-file-v2.js
+## Copy file (file2 to file 1)
+### Example 1: node copy-file2-to-file1-v1.js
+### Example 2: node copy-file2-to-file1-v2.js
+### Example 1: node copy-file2-to-file1-v3.js
+### Example 2: node copy-file2-to-file1-v4.js
 ##
-## Delete file (file 2)/
-### Example 1: node delete-file-v3.js
-### Example 2: node delete-file-v4.js
+## Delete file1
+### Example 1: node delete-file1-v1.js
+### Example 2: node delete-file1-v2.js
 ##
-## After node.js was installed, start node.js.
-### In the command line type node example.js, where example.js is one of the files above.
+## Delete file2
+### Example 1: node delete-file2-v1.js
+### Example 2: node delete-file2-v2.js
 ##
-## Create an npm project which uses an npm package
-### Create an npm project with command "npm init"
-### Install package superheroes with command "npm install superheroes"
-### Call the superheroes pacakge from index.js - see index.js
-#### node index.js # to create a superhero name

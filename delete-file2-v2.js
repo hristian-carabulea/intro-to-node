@@ -1,9 +1,9 @@
 // Node.js v16.13.1
-// Delete file2, example 2
+// Delete file2, example 1
 
-const fs = require('fs');
+const { unlink } = require('fs');
 
-fs.unlink('file2.txt', (err) => {
+unlink('file2.txt', (err) => {
   if (err) throw err;
   console.log('successfully deleted file2.txt');
 });
